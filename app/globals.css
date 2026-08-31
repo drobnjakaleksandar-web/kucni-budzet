@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&display=swap");
+@import "tailwindcss";
+
+:root {
+  --font-bricolage: "Bricolage Grotesque", var(--font-geist), sans-serif;
+  /* Boje iz Knjige Grafickih Standarda v1.0.2 */
+  --color-teal: #115E59;
+  --color-coral: #D4836A;
+  --color-red: #D45D5D;
+  --color-dark-red: #D94E34;
+  --color-indigo: #5850EC;
+  --color-dark-navy: #1E2229;
+  --color-dark-gray: #4A525D;
+  --color-medium-gray: #878E99;
+  --color-off-white: #F9F8F6;
+  --color-warm-gray: #EAE7E2;
+  --color-white: #FFFFFF;
+
+  --background: var(--color-off-white);
+  --foreground: var(--color-dark-navy);
+}
+
+@theme inline {
+  --color-teal: var(--color-teal);
+  --color-coral: var(--color-coral);
+  --color-warn: var(--color-red);
+  --color-danger: var(--color-dark-red);
+  --color-indigo: var(--color-indigo);
+  --color-navy: var(--color-dark-navy);
+  --color-gray-dark: var(--color-dark-gray);
+  --color-gray-medium: var(--color-medium-gray);
+  --color-offwhite: var(--color-off-white);
+  --color-warmgray: var(--color-warm-gray);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-display: var(--font-bricolage);
+  --font-sans: var(--font-geist);
+}
+
+body {
+  background: #EDEAE4;
+  color: var(--foreground);
+  font-family: var(--font-geist), sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+input,
+select,
+textarea {
+  font-size: 16px;
+}

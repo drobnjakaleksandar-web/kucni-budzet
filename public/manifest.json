@@ -1,0 +1,16 @@
+{
+  "name": "Kućni Budžet",
+  "short_name": "Kućni Budžet",
+  "description": "Zajedničke finansije pod kontrolom",
+  "start_url": "/pocetna",
+  "display": "standalone",
+  "background_color": "#F9F8F6",
+  "theme_color": "#1E2229",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    }
+  ]
+}
